@@ -1,0 +1,9 @@
+FD: com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/mc com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/field_72777_q
+FD: com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/cloudTickCounter com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/field_72773_u
+FD: com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/world com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/field_72769_h
+FD: com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/CLOUDS_TEXTURES com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/field_110925_j
+FD: com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/renderEngine com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/field_72770_i
+MD: com/wdcftgg/sleepanytime/mixins/MixinBlockBed/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z com/wdcftgg/sleepanytime/mixins/MixinBlockBed/func_180639_a (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+MD: com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/renderClouds (FIDDD)V com/wdcftgg/sleepanytime/mixins/MixinRenderGlobal/func_180447_b (FIDDD)V
+MD: com/wdcftgg/sleepanytime/mixins/MixinWorldProviderEnd/isSurfaceWorld ()Z com/wdcftgg/sleepanytime/mixins/MixinWorldProviderEnd/func_76569_d ()Z
+MD: com/wdcftgg/sleepanytime/mixins/MixinWorldProviderHell/isSurfaceWorld ()Z com/wdcftgg/sleepanytime/mixins/MixinWorldProviderHell/func_76569_d ()Z

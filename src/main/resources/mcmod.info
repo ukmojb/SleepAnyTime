@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sleepanytime",
+  "name": "sleepanytime",
+  "description": "You can sleep anytime and anywhere",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["wdcftgg"],
+  "credits": "Authors of this project",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
