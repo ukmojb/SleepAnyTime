@@ -1,4 +1,16 @@
 {
-  "mappings": {},
-  "data": {}
+  "mappings": {
+    "com/wdcftgg/sleepanytime/mixins/MixinEntityPlayer": {
+      "trySleep": "Lnet/minecraft/entity/player/EntityPlayer;func_180469_a(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/player/EntityPlayer$SleepResult;",
+      "Lnet/minecraft/entity/player/EntityPlayer;trySleep(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/player/EntityPlayer$SleepResult;": "Lnet/minecraft/entity/player/EntityPlayer;func_180469_a(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/player/EntityPlayer$SleepResult;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/wdcftgg/sleepanytime/mixins/MixinEntityPlayer": {
+        "trySleep": "Lnet/minecraft/entity/player/EntityPlayer;func_180469_a(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/player/EntityPlayer$SleepResult;",
+        "Lnet/minecraft/entity/player/EntityPlayer;trySleep(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/player/EntityPlayer$SleepResult;": "Lnet/minecraft/entity/player/EntityPlayer;func_180469_a(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/player/EntityPlayer$SleepResult;"
+      }
+    }
+  }
 }

@@ -3,11 +3,8 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "mixins.sleepanytime.refmap.json",
   "mixins": [
-    "MixinForgeEventFactory",
     "MixinBlockBed",
-    "MixinWorldProviderEnd",
-    "MixinRenderGlobal",
-    "MixinWorldProviderHell"
+    "MixinEntityPlayer"
   ],
   "client": [
   ],
