@@ -3,8 +3,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "mixins.sleepanytime.refmap.json",
   "mixins": [
-    "MixinBlockBed",
-    "MixinEntityPlayer"
+    "MixinEntityFishHook"
   ],
   "client": [
   ],
@@ -13,5 +12,4 @@
   "injectors": {
     "defaultRequire": 1
   }
-
 }

@@ -1,6 +1,6 @@
 package com.wdcftgg.sleepanytime.mixins;
 
-import com.wdcftgg.sleepanytime.SleepAnyTime;
+import com.wdcftgg.sleepanytime.CustomFishing;
 import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import zone.rong.mixinbooter.IEarlyMixinLoader;
@@ -17,9 +17,9 @@ import java.util.Map;
  * @create 2023/8/22 19:31
  */
 @SuppressWarnings("unused")
-@IFMLLoadingPlugin.Name(SleepAnyTime.MODID)
+@IFMLLoadingPlugin.Name(CustomFishing.MODID)
 @IFMLLoadingPlugin.MCVersion(ForgeVersion.mcVersion)
-public class SATMixinConfigPlugin implements IFMLLoadingPlugin, IEarlyMixinLoader {
+public class MixinConfigPlugin implements IFMLLoadingPlugin, IEarlyMixinLoader {
     @Override
     public String[] getASMTransformerClass() {
         return new String[0];
@@ -48,6 +48,6 @@ public class SATMixinConfigPlugin implements IFMLLoadingPlugin, IEarlyMixinLoade
 
     @Override
     public List<String> getMixinConfigs() {
-        return Collections.singletonList("mixins.sleepanytime.json");
+        return Collections.singletonList("mixins.customfishing.json");
     }
 }
